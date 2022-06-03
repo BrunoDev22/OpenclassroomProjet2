@@ -1,0 +1,1128 @@
+html {
+    max-width: 1920px;
+    margin: auto;
+}
+
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+    /* margin-left: 25px;
+    margin-right: 25px; */
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+/* .interligneBloc {
+    line-height: 8px;
+} */
+
+.texteGras {
+    font-weight: bold;
+}
+
+.bordureNone {
+    border: none;
+}
+
+.decorationNone {
+    text-decoration: none;
+}
+
+
+/* .flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .flexColumnCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.flexColumnBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+}
+
+.divEncadre h4 p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 11px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.flexDisplay {
+    display: flex;
+    align-items: center;
+}
+
+
+/* NAV */
+
+.s1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* class de l'image */
+
+.redimension_logo {
+    width: 45%;
+    margin-left: 10px;
+}
+
+.flexNav {
+    display: flex;
+    height: 99px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.bordureNav {
+    border-top: 1px solid #0065FC;
+}
+
+
+/* .margLeftAct {
+    margin-left: 35px;
+} */
+
+.sizeLien {
+    width: 140px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorLien1 {
+    color: #0065FC;
+}
+
+.colorLien2 {
+    color: black;
+}
+
+.entete {
+    /* line-height: 5px; */
+    width: 100%;
+}
+
+.entete p {
+    margin-left: 0;
+    font-size: 16px;
+}
+
+
+/* .nav h4 {
+    margin-right: 70px;
+} */
+
+
+/* HEADER */
+
+.firstSection {
+    padding: 25px;
+}
+
+.formulaire {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    /* background-color: #F2F2F2;
+    width: 200px;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%; */
+}
+
+.icontextbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #F2F2F2;
+}
+
+.paddingSearch {
+    padding-left: 20px;
+}
+
+.recherche {
+    height: 40px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.iconSize {
+    height: 40px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* input {
+    border: 1px solid #F2F2F2;
+    height: 33px;
+    margin-left: -2px;
+} */
+
+.label_recherche {
+    border: 1px;
+    background-color: #0065FC;
+    color: white;
+    margin-left: -4px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+
+
+/* FILTRES */
+
+.margFiltre {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.filtre {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.margFiltreTitre {
+    margin-right: 20px;
+}
+
+.filtreTexteIcons {
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.filtreTexteIcons:hover>.filtreTexteIcons {
+    color: #0065FC;
+}
+
+.filtreTexteIcons:hover>.filtreIcons {
+    color: white;
+    background-color: #0065FC;
+}
+
+.filtreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+.filtreIcons {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.flexDisplay {
+    display: flex;
+    align-items: center;
+}
+
+.flexDisplay p {
+    font-size: 16px;
+}
+
+
+/* INFO ICON */
+
+.infoCss {
+    color: #0065FC;
+}
+
+.parentIcon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+/* 2d section */
+
+.hebergement_div {
+    display: flex;
+    /* height: 600px; */
+    flex-direction: row;
+    height: 650px;
+    justify-content: space-between;
+}
+
+.titreHebergement {
+    padding-left: 20px;
+}
+
+.hebergement_div_result {
+    background-color: #F2F2F2;
+    width: 60%;
+    /* margin-right: 30px; */
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 20px; */
+    border-radius: 15px;
+    height: 100%;
+    flex: 2;
+    margin-right: 15px;
+}
+
+.hebergement_div_result h2 {
+    margin-left: 25px;
+    margin-top: -4px;
+}
+
+.hebergement_interieur_cadre {
+    display: flex;
+    /* axe des ordonnée */
+    /* justify-content: center; */
+    /* axe des abscisses */
+    /* align-items: center; */
+    flex-direction: column;
+    /* height: 70%; */
+}
+
+
+/* .hebergement_result h4,
+p {
+    margin-left: 12px;
+} */
+
+.align_col_div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    grid-gap: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 300px; */
+}
+
+.hebergement_enfants {
+    /* max-width: 250px; cela ne change rien cela met juste une limite, ca ne met pas de largeur*/
+    background-color: white;
+    border-radius: 15px;
+    /* margin-left: 30px; */
+    width: 33%;
+    height: 45%;
+    /* line-height: 8px; */
+}
+
+.hebergement_enfants:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.stars_bloc_i {
+    color: #0065FC;
+}
+
+.img_grey {
+    color: #F2F2F2;
+}
+
+.tabTitre {
+    margin-left: 11px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.tabPara {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 11px;
+}
+
+.stars_bloc15 {
+    padding-left: 11px;
+    padding-bottom: 8px;
+}
+
+.hebergement_enfants img {
+    width: 94%;
+    height: 240px;
+    padding: 6px;
+    height: 130px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: -7px;
+}
+
+.titreFooterHeber {
+    padding-left: 26px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+/* 3eme section */
+
+.s3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 30%;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    flex: 1;
+    margin-left: 15px;
+}
+
+.titreEtIcone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s3e:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.titreS3 {
+    padding-left: 20px;
+}
+
+.bloc2_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.s3e {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    border-radius: 15px 15px 15px 15px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    height: 24%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* faux */
+
+
+/* .s3e img {
+    width: 40%;
+    height: 140px;
+    padding: 4px;
+    border-radius: 15px 0px 0px 15px;
+} */
+
+.bloc_txt_s3e {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+
+/* separer en 2 car 2 div dans 1 */
+
+.divImg {
+    width: 70%;
+}
+
+.bloc2_img {
+    width: 100%;
+    height: 96%;
+    padding: 5px;
+    border-radius: 15px 0px 0px 15px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.divEncadre2 {
+    padding-right: 15%;
+}
+
+.titreFix {
+    margin-top: 13px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+}
+
+.paraFix {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+.stars_bloc {
+    padding-left: 20px;
+    position: absolute;
+    bottom: 10%;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+.imgActivites {
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgActivites2 {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgActivites3 {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgActivites4 {
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 0 0 15px;
+    /* margin-left: 40px; */
+}
+
+.imgActivites5 {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 0 0 15px;
+    /* margin-left: 40px; */
+}
+
+.imgActivites6 {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 0 0 15px;
+    /* margin-left: 40px; */
+}
+
+.blockAct {
+    display: flex;
+}
+
+.Activites {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blocActivites {
+    width: 100%;
+    height: 600px;
+}
+
+.blocActivites2356 {
+    width: 42%;
+    height: 600px;
+}
+
+
+/* reglage bloc */
+
+.cubeActivites {
+    width: 48%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+    margin-right: 6%;
+}
+
+.cubeActivites2356 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+    margin-bottom: 60px;
+}
+
+.cubeActivites23567 {
+    height: 52%;
+    margin-bottom: 25px;
+}
+
+.cubeActivites23568 {
+    height: 44%;
+    /* margin-bottom: 10px; */
+}
+
+.cubeActivites23569 {
+    height: 47%;
+    margin-bottom: 30px;
+}
+
+.cubeActivites235610 {
+    height: 48%;
+    margin-bottom: 10px;
+}
+
+
+/* fin reglage bloc */
+
+
+/* .hauteurTitre {
+    height: 70px;
+} */
+
+.titreActivites {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%
+}
+
+.imgActivites1 {
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+
+.flexB {
+    display: flex;
+}
+
+.flexCentre {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgActivitesdiv {
+    /* height: 70%; */
+    width: 100%;
+}
+
+.imgActivitesdiv2 {
+    width: 100%;
+}
+
+.imgActivitesdiv3 {
+    width: 100%;
+}
+
+.imgActivitesdiv4 {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.imgActivitesdiv5 {
+    width: 100%;
+}
+
+.imgActivitesdiv6 {
+    width: 100%;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+
+/* Footer  */
+
+.footer {
+    height: 300px;
+    margin-top: 100px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tailleBlocFoot {
+    height: 150px;
+}
+
+.margeBlocFoot1 {
+    margin-left: 5%;
+}
+
+.margeBlocFoot3 {
+    margin-right: 28%;
+}
+
+
+/* Responsive */
+
+
+/* tablette */
+
+@media screen and (max-width:998px) {
+    .filtreTexteIcons {
+        margin-right: 10px;
+    }
+    .filtreTexte {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* .filtreanimaux {
+        justify-content: center;
+    } */
+    /* ------------------------------------------------------------------------------------------------------------- */
+    .hebergement_div {
+        display: block;
+        height: auto;
+    }
+    .hebergement_div_result {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+    }
+    .s3 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .s3e {
+        width: 95%;
+    }
+    .divEncadre2>h4 {
+        font-size: 30px;
+    }
+    .divEncadre2>p {
+        font-size: 30px;
+    }
+    .divEncadre2 {
+        margin-top: 7%;
+    }
+    .hebergement_enfants img {
+        height: 100px;
+    }
+    .titreEtIcone {
+        width: 95%;
+    }
+    .bloc2_div {
+        width: 95%;
+    }
+    .bloc2_img {
+        height: 250px;
+    }
+    /* -------------------------------------------------------------------------------------------------------- */
+    .paraFix {
+        margin-bottom: 18%;
+    }
+    /* --------------------------------------------------------------------------------------------------- */
+    .Activites {
+        height: 1000px;
+        margin-bottom: 0;
+    }
+    /* probleme de margin top et bottom qui ne senvont pas donc je dois reduire par rapport au parrent
+    pour que la divv blocAct ne collapse pas avec les margin et son parent */
+    .blockAct {
+        height: 87%;
+        display: block;
+    }
+    .blocActivites {
+        height: 50%;
+        margin-bottom: 15px;
+    }
+    .blocActivites2356 {
+        height: 100%;
+    }
+    /* .cubeActivites {
+        height: 86%;
+    } */
+    /* .cubeActivites2356 {
+        margin-bottom: 0;
+    } */
+    .cubeActivites23567 {
+        height: 50%;
+    }
+    .imgActivitesdiv {
+        height: 86%;
+    }
+    .imgActivitesdiv2 {
+        height: 74%;
+        width: 100%;
+    }
+    .imgActivitesdiv3 {
+        height: 70%;
+        width: 100%;
+    }
+    .imgActivitesdiv4 {
+        height: 86%;
+        width: 100%;
+    }
+    .imgActivitesdiv5 {
+        height: 70%;
+        width: 100%;
+    }
+    .imgActivitesdiv6 {
+        height: 70%;
+        width: 100%;
+    }
+    .imgActivites {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .imgActivites2 {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .imgActivites3 {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .imgActivites4 {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        /* margin-left: 40px; */
+    }
+    .imgActivites5 {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        /* margin-left: 40px; */
+    }
+    .imgActivites6 {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        /* margin-left: 40px; */
+    }
+    /* .hauteurTitre {
+        margin-top: 0;
+        margin-bottom: 0;
+    } */
+    .hauteurTitre h3 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .flexColumnCentre {
+        display: block;
+    }
+    /* -------------------------------------------------------------------------------------------------- */
+    .footer {
+        margin-top: 0;
+    }
+    .margeBlocFoot3 {
+        margin-right: 12%;
+    }
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width:768px) {
+    .body {
+        overflow-x: hidden;
+    }
+    .s1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .logoBooki {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redimension_logo {
+        width: 27%;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .flexNav {
+        margin-right: 0;
+        width: 100%;
+        height: 30px;
+    }
+    .sizeLien {
+        height: 35px;
+    }
+    .bordureNav {
+        border-top: 0;
+        border-bottom: 3px solid #0065FC;
+        width: 100%;
+    }
+    /* .bordureNav a {
+        align-self: flex-end;
+    } */
+    .bordureNav2 {
+        border-bottom: 3px solid #F2F2F2;
+        width: 100%;
+    }
+    /* ---------------------------------------------------------------------------------------------------------------- */
+    /* firstSection */
+    .firstSection {
+        padding-top: 10px;
+    }
+    .bordureSearch {
+        width: 100%;
+    }
+    .icontextbar {
+        width: 70%;
+        justify-content: flex-start;
+    }
+    .recherche {
+        width: 100%;
+    }
+    .bouton {
+        width: 28%;
+    }
+    .label_recherche {
+        width: 100%;
+    }
+    /* .bordureSearch {
+        width: 100%;
+    } */
+    .margFiltre {
+        margin-top: 10px;
+    }
+    .mobileFiltre {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filtreTexte {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .filtreTexteIcons {
+        margin-bottom: 10px;
+    }
+    .flexDisplay {
+        display: flex;
+        align-items: baseline;
+    }
+    .parentIcon {
+        width: 30px;
+    }
+    /* ---------------------------------------------------------------------------------------------------- */
+    .hebergement_div {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .hebergement_div_result {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        height: auto;
+        padding: 0;
+        background-color: white;
+    }
+    .align_col_div {
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
+    .hebergement_enfants {
+        width: 100%;
+        box-shadow: 5px 5px 5px 1px #F2F2F2;
+    }
+    .hebergement_enfants img {
+        height: 170px;
+        width: 97%;
+    }
+    /* ------------------------------------------------------------------------------------------------------------ */
+    .s3 {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        height: auto;
+        border-radius: 0;
+    }
+    .s3e {
+        margin-left: 20px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        height: 170px;
+    }
+    .divEncadre2>h4 {
+        font-size: 16px;
+    }
+    .divEncadre2>p {
+        font-size: 16px;
+    }
+    .bloc_txt_s3e {
+        margin: 0;
+    }
+    .bloc2_div {
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .divImg {
+        width: 70%;
+    }
+    .bloc2_img {
+        width: 100%;
+        border-radius: 15px 0px 0px 15px;
+        vertical-align: -webkit-baseline-middle;
+        height: 95%;
+    }
+    .divEncadre2 {
+        padding-right: 15%;
+    }
+    .titreFix {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding-left: 20px;
+    }
+    .paraFix {
+        margin-top: 0;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+    .stars_bloc {
+        padding-left: 20px;
+    }
+    /* -------------------------------------------------------------------------------------------------------------------- */
+    .Activites {
+        height: auto;
+        padding-left: 19px;
+        padding-right: 19px;
+        padding-bottom: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .blocActivites {
+        flex-direction: column;
+        height: auto;
+    }
+    .blockAct {
+        flex-direction: column;
+    }
+    .blocActivites2356 {
+        width: 100%;
+        height: auto;
+    }
+    .cubeActivites {
+        width: 100%;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .cubeActivites2356 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .imgActivites {
+        width: 100%;
+        height: 170px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .imgActivites2 {
+        width: 100%;
+        height: 170px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .imgActivites3 {
+        width: 100%;
+        height: 170px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .imgActivites4 {
+        width: 100%;
+        height: 170px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        /* margin-left: 40px; */
+    }
+    .imgActivites5 {
+        width: 100%;
+        height: 170px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        /* margin-left: 40px; */
+    }
+    .imgActivites6 {
+        width: 100%;
+        height: 170px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        /* margin-left: 40px; */
+    }
+    /* ------------------------------------------------------------------------------------------------------- */
+    /* footer */
+    .footer {
+        flex-direction: column;
+        height: auto;
+        margin-top: 0;
+        align-items: baseline;
+    }
+    .margeBlocFoot2 {
+        margin-left: 5%;
+    }
+    .margeBlocFoot3 {
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .tailleBlocFoot {
+        height: auto;
+    }
+}
